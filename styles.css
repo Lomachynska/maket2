@@ -1,0 +1,218 @@
+/* Загальні стилі для картинки */
+body {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Sans Georgian', sans-serif;
+  font-family: 'Noto Serif Georgian', serif;
+  
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 1280px;
+  height: 600px;
+  left: 0px;
+  top: 1px;
+}
+
+/* Стилі для меню та лого */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+.logo {
+  flex: 1;
+}
+
+.logo img {
+  width: 110px; /* Розмір ЛОГО */
+  height: 30px; /* авто висота по пропорції */
+  margin-left: 50px;
+
+}
+
+nav {
+  text-align: center;
+}
+
+.menu-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-items ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-items ul a {
+  margin: 0 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container {
+  text-align: center;
+}
+
+/* Стилі для меню */
+nav ul a {
+ 
+  align-items: center;
+  text-decoration:none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #333;
+  margin-left: 10px;
+  
+}
+
+.feature-box-button {
+  margin-left: 30px;
+}
+
+/* КНОПКА над футером */
+
+.container {
+  text-align: right;
+}
+
+.feature-box-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #01996D;
+  color: #FFFFFF;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  margin-left: 0; /* Добавляем отступ слева, чтобы кнопка была прижата к левому краю */
+  text-align: right;
+}
+
+.feature-box-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-box-button:hover {
+  background-color: #ddd;
+}
+
+.feature-box-image {
+  display: block;
+  width: 35%; /* змінити розміри */
+  margin-right: 10px; /* Додати відступ справа між картинкою та текстом*/
+}
+
+.feature-box-content {
+  position: absolute;
+  width: 584;
+  height: 413px;
+  left: 1061px;
+ 
+}
+
+.feature-box {
+  position: relative;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.feature-box-image {
+  display: block;
+}
+
+.feature-box-content {
+  position: absolute;
+  /* Adjust the desired positioning properties */
+}
+
+
+/*------Блок над футером----*/
+.section {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+  margin-right: 30px;
+  padding: 40px; /* Встановіть бажані значення відступів */
+}
+
+.image {
+  flex: 1;
+  text-align: center;
+}
+
+.section {
+  background-image: url("./IMG/BG.png"); /* Шлях до зображення */
+  background-size: 200% auto; /* Режим масштабування зображення */
+  background-position: center; /* Положення зображення */
+}
+
+
+  /* Стили для feature box'ов */
+.feature-boxes {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.feature-box {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+
+
+
+
+/* Стили для футера */
+footer {
+  background-color: #245852;
+  color: #fff;
+  padding: 20px;
+  position: absolute;
+  width: 1280px;
+  height: 600px;
+  left: 0px;
+  top: 4445px;
+
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list li {
+  left: 14.32%;
+  right: 79.38%;
+  top: 91.29%;
+  bottom: 8.12%;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #FFFFFF;
+}
+
+
